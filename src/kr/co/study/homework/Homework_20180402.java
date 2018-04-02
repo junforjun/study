@@ -1,5 +1,6 @@
+package kr.co.study.homework;
 
-public class Homework {
+public class Homework_20180402 {
 
 	public static void main(String[] args) {
 
