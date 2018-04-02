@@ -3,7 +3,8 @@ bin/
 
 ### STS ###
 .apt_generated
-
+bin/
+.class
 .factorypath
 
 .settings
