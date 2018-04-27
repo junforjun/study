@@ -8,11 +8,12 @@ public class Homework {
 		String[] a = goo.split("/");
 
 			System.out.println(abc);
+	}
 
 	public static String url(String abc) {
 		for(String b: a) {
 		return abc;
 		}
-	}
+	
 	}
 }
