@@ -9,7 +9,7 @@ public class FileUtil {
 	public static void main(String[] args) {
 		try {
 			// 1바이트씩 읽을때
-			FileInputStream fs = new FileInputStream("C:\\git\\a.txt");
+			FileInputStream fs = new FileInputStream("C:\\git\\god.txt");
 			int data =0;
 			while((data =fs.read()) != -1) {
 				System.out.print( (char) data);
@@ -17,7 +17,7 @@ public class FileUtil {
 
 			fs.close();
 			// Line단위로 읽을때
-			BufferedReader br = new BufferedReader(new FileReader("C:\\git\\a.txt"));
+			BufferedReader br = new BufferedReader(new FileReader("C:\\git\\god.txt"));
 	        while(true) {
 	            String line = br.readLine();
 	            if (line==null) break;
