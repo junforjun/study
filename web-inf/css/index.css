@@ -1,0 +1,16 @@
+@CHARSET "EUC-KR";
+
+.left {
+	position: relative;
+	float: left;
+}
+
+.hun{
+	table-layout: fixed;
+	width: 100%;
+
+}
+
+.three{
+	width: 33%;
+}
